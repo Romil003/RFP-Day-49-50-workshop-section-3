@@ -1,0 +1,29 @@
+{"AddresBookDB" :[
+    {   "Id" : 1,
+        "_FullName" : "Romil Ghadge",
+        "_Address"  : "Lalbaug",
+        "_phoneNumber" : 9594787715,
+        "_City" : "Mumbai",
+        "_State" : "Maharshtra",
+        "_Zipcode" : 400012
+    },
+    {   "Id" : 2,
+        "_FullName" : "Sarvesh Pednekar",
+        "_Address"  : "Bhandup",
+        "_phoneNumber" : 9876543231,
+        "_City" : "Mumbai",
+        "_State" : "Maharshtra",
+        "_Zipcode" : 400078
+    },
+    {   "Id" : 3,
+        "_FullName" : "Rutik Hajare",
+        "_Address"  : "Thane",
+        "_phoneNumber" : 1234567891,
+        "_City" : "Pune",
+        "_State" : "Maharshtra",
+        "_Zipcode" : 400091
+    }
+    ]
+}    
+    
+    

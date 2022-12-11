@@ -1,0 +1,206 @@
+body {
+    margin : 0;
+    height: 100%;
+}
+
+.header {
+    padding: 15px 0;
+    background: #ffffff;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid blue;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    border: 0px solid blue;
+}
+
+.logo-content-img {
+    background: #42515F 0% 0% no-repeat padding-box;
+}
+
+.adbk-text {
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    font-family: "Montserrat" , sans-serif;
+    letter-spacing: 0px;
+    color: #008CFF;
+    text-transform: uppercase;
+}
+
+.adbk-book {
+    color: #42515F;
+}
+
+* { box-sizing: border-box;}
+
+.form-head {
+    text-align: center;
+    font: normal normal normal 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-head-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #008CFF 0% 0% no-repeat padding-box;
+    height: 108px;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 8px 8px 0px 0px;
+}    
+
+.form-content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid white;
+}
+
+.form {
+    width: 65%;
+    padding: 20px 30px;
+    background:white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #d5dce3;
+    border-radius: 8px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+}
+
+.text {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.select-input{
+    width: 100%;
+    padding: 12px;
+    margin-right: 15px;
+    border-radius: 4px;
+    resize: vertical;
+    border: 1px solid #BDBDBD;
+    opacity: 1;
+}
+
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    background-color: transparent;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 30px;
+}
+
+.row-content-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.row-content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 4px;
+}
+
+.row-content-two:first-child{
+    padding-left: 0px;
+    padding-right: 4px;
+}
+
+textarea {
+    resize: none;
+}
+
+error-output {
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+    margin-top: 4px;
+}
+
+.add-reset-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button{
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+
+.add-Button{
+    margin-right: 30px;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    background-color: #f5f5f5;
+    opacity: 1;
+}
+
+.reset-Button{
+    border: 1px solid #969696;
+    border-radius: 5px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
